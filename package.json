@@ -1,0 +1,19 @@
+{
+  "name": "whynoteq",
+  "version": "0.0.0",
+  "description": "tell why 2 objects are not deep equal",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Andrew Kelley <superjoe30@gmail.com>",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/superjoe30/node-whynoteq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/superjoe30/node-whynoteq/issues"
+  },
+  "homepage": "https://github.com/superjoe30/node-whynoteq"
+}
