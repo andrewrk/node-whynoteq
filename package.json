@@ -7,13 +7,13 @@
     "test": "node test.js"
   },
   "author": "Andrew Kelley <superjoe30@gmail.com>",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/superjoe30/node-whynoteq.git"
+    "url": "git://github.com/andrewrk/node-whynoteq.git"
   },
   "bugs": {
-    "url": "https://github.com/superjoe30/node-whynoteq/issues"
+    "url": "https://github.com/andrewrk/node-whynoteq/issues"
   },
-  "homepage": "https://github.com/superjoe30/node-whynoteq"
+  "homepage": "https://github.com/andrewrk/node-whynoteq"
 }
