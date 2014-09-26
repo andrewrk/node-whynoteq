@@ -1,6 +1,6 @@
 {
   "name": "whynoteq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tell why 2 objects are not deep equal",
   "main": "index.js",
   "scripts": {
