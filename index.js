@@ -35,6 +35,15 @@ function whyNotEq(a, b) {
     return null;
   }
 
+  // one or both might be null
+  if (a === null && b !== null) {
+    return ['IsNull', true, false];
+  } else if (a !== null && b === null) {
+    return ['IsNull', false, true];
+  } else if (a === null && b === null) {
+    return null;
+  }
+
   // they are objects
   var prop;
   for (prop in a) {

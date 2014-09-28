@@ -57,3 +57,11 @@ assert.throws(function() {
 assertDeepEqual(17, 17);
 
 assertDeepEqual({foo: undefined}, {derp: undefined});
+
+assert.throws(function() {
+  assertDeepEqual(null, {}, "foobar");
+}, /foobar: IsNull,true,false/);
+
+assert.throws(function() {
+  assertDeepEqual({}, null, "foobar");
+}, /foobar: IsNull,false,true/);
